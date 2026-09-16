@@ -1,0 +1,16 @@
+# USP (ICCV 2025), CIFAR-100 class-incremental semi-supervised continual learning
+# default 4% labels (k_shot=150); use k_shot 30/20/25/80/125 for other label ratios
+dataset: cifar100
+net: resnet32
+k_shot: 150
+nb_cl_fg: 10
+nb_cl: 10
+u_ratio: 7
+epochs: 200
+epochs_new: 200
+warmup_epochs: 10
+proto_dim: 64
+nb_protos: 5
+p_cutoff: 0.95
+u_iter: 100
+buffer_size: 5120

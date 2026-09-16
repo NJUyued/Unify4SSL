@@ -1,0 +1,7 @@
+saved_models/
+data/
+__pycache__/
+*.pyc
+*.pth
+*.pkl
+.venv/

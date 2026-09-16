@@ -1,0 +1,4 @@
+# RDA (ECCV 2022), CIFAR-10 with 20 labels, conventional setting
+dataset: cifar10
+num_labels: 20
+T: 0.5

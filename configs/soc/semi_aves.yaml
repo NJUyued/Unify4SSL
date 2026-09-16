@@ -1,0 +1,14 @@
+# SoC (AAAI 2024), Semi-Aves, in-distribution unlabeled data, from scratch
+dataset: semi_aves
+num_classes: 200
+unlabel: in
+trainval: true
+net: resnet50
+input_size: 224
+batch_size: 32
+uratio: 5
+lr: 0.01
+num_train_iter: 400000
+num_eval_iter: 2000
+num_tracked_batch: 5120
+alpha: 2.5

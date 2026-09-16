@@ -1,0 +1,6 @@
+# FixMatch baseline, CIFAR-100 with 400 labels, WRN-28-8
+dataset: cifar100
+num_labels: 400
+widen_factor: 8
+T: 1.0
+p_cutoff: 0.95

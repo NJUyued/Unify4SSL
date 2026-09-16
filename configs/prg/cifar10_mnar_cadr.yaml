@@ -1,0 +1,8 @@
+# PRG, CIFAR-10 under CADR protocol with gamma=20 (Tab.1 in paper)
+dataset: cifar10
+num_labels: 40
+mismatch: cadr
+gamma: 20
+Nb: 128
+alpha: 1.0
+last: false

@@ -1,0 +1,6 @@
+# RDA, CIFAR-10 with 40 labels, imbalanced labeled / balanced unlabeled, N0=10 (Tab.2)
+dataset: cifar10
+num_labels: 40
+mismatch: rda
+n0: 10
+T: 0.5

@@ -1,0 +1,8 @@
+# PRG, CIFAR-10 under PRG protocol with N0=10 (Tab.2 in paper)
+dataset: cifar10
+num_labels: 40
+mismatch: prg
+n0: 10
+Nb: 128
+alpha: 1.0
+last: false

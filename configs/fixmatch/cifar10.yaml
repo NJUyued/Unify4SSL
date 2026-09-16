@@ -1,0 +1,5 @@
+# FixMatch baseline, CIFAR-10 with 40 labels (standard setting)
+dataset: cifar10
+num_labels: 40
+T: 1.0
+p_cutoff: 0.95

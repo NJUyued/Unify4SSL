@@ -1,0 +1,8 @@
+# PRG (ICCV 2023), CIFAR-10 with 40 labels, conventional balanced setting
+dataset: cifar10
+num_labels: 40
+T: 1.0
+p_cutoff: 0.95
+Nb: 128
+alpha: 1.0
+last: false

@@ -1,0 +1,6 @@
+# MutexMatch (TNNLS 2024), CIFAR-10 with 40 labels
+dataset: cifar10
+num_labels: 40
+T: 0.5
+p_cutoff: 0.95
+k: 0
